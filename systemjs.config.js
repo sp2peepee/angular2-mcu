@@ -38,6 +38,7 @@
 				main: './index.js',
 				defaultExtension: 'js'
 			}
-		}
+		},
+		baseURL: '/angular2-mcu/'
 	});
 })(this);
