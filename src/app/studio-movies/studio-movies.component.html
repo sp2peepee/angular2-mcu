@@ -1,0 +1,18 @@
+<div class="stud-movie-wrapper container">
+	<div class="stud-movie-container">
+		<div class="stud-movie-header">
+			<span>All Movies</span>
+		</div>
+		<div class="stud-movie-content row">
+			<div class="movie-item col-xs-1 col-md-3"
+				*ngFor="let movie of movies">
+				<div class="movie-title">
+					<span>{{ movie.movieTitle }}</span>
+				</div>
+				<div class="movie-poster">
+					<img class="movie-poster" src="{{ movie.posterLink }}" />
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

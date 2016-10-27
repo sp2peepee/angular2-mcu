@@ -1,0 +1,49 @@
+.mcu-nav-bar {
+	background-color : #E92127;
+	color            : #ECF0F1;
+
+	height : 94px;
+}
+
+.mcu-logo {
+	width  : 150px;
+	margin : 10px 30px;
+}
+
+.mcu-logo > img {
+	width : 150px;
+}
+
+.mcu-header {
+	cursor : pointer;
+}
+
+.mcu-head-text {
+	position   : relative;
+	top        : -14px;
+	font-size  : 11px;
+	text-align : center;
+}
+
+.mcu-menu {
+	font-weight : 300;
+	height      : inherit;
+}
+
+.mcu-menu-item {
+	width      : 150px;
+	text-align : center;
+}
+
+.mcu-menu-item > div {
+	padding : 37px 20px;
+	cursor  : pointer;
+}
+
+.mcu-menu-item:hover {
+	background-color : #ED696C;
+}
+
+.selected {
+	background-color : #690F12;
+}

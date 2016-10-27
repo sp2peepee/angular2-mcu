@@ -1,0 +1,18 @@
+<div class="mcu-nav-bar">
+	<div class="mcu-header pull-left" (click)="goToHome()">
+		<div class="mcu-logo">
+			<img src="http://www.wearemoviegeeks.com/wp-content/uploads/Marvel-logo.png" />
+		</div>
+		<div class="mcu-head-text">
+			<span>The Marvel Cinematic Universe</span>
+		</div>
+	</div>
+	<div class="mcu-menu pull-left">
+		<div class="mcu-menu-item pull-left"
+			*ngFor="let studio of studios"
+			[class.selected]="studio.id === selectedStudio">
+			<div (click)="goToStudio(studio.id)">{{ studio.studName }}</div>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+</div>

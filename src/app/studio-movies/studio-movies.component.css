@@ -1,0 +1,37 @@
+.stud-movie-wrapper {
+	background-color : #34495E !important;
+	color            : #ecf0f1;
+
+	margin-top    : 50px;
+	margin-bottom : 50px;
+}
+
+.stud-movie-container {
+	margin : 30px 20px;
+}
+
+.stud-movie-header {
+	font-size : 30px;
+	margin-bottom : 20px;
+}
+
+.stud-movie-content {
+	text-align : center;
+}
+
+.movie-item {
+	margin-top    : 15px;
+	margin-bottom : 15px;
+}
+
+.movie-item > .movie-title { 
+	text-align    : center;
+	font-size     : 13px;
+	margin-bottom : 5px;
+}
+
+.movie-item > .movie-poster > img {
+	width  : 200px;
+	height : 300px;
+	object-fit : cover;
+}
