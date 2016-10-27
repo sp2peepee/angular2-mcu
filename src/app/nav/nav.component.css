@@ -2,7 +2,13 @@
 	background-color : #E92127;
 	color            : #ECF0F1;
 
-	height : 94px;
+	position : fixed;
+	top      : 0;
+	width    : 100%;
+	height   : 94px;
+	z-index  : 1;
+
+	box-shadow: 0px 5px 10px black;
 }
 
 .mcu-logo {

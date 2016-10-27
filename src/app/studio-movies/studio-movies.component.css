@@ -2,6 +2,9 @@
 	background-color : #34495E !important;
 	color            : #ecf0f1;
 
+	position : relative;
+	top      : 94px;
+
 	margin-top    : 50px;
 	margin-bottom : 50px;
 }
